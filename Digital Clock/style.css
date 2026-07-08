@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+}
+.zoom_screen{
+    width: 30px;
+}
+.brightness{
+    width: 30px;
+}
+.setting{
+    width: 30px;    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    font-size: 23px;
+    align-items: center;
+}
+.time{
+    justify-content: center;
+    display: flex;
+    padding: 60px 60px 30px 60px;
+    font-size: 200px;
+}
+.nav_feature{
+    display: flex;
+    gap: 40px;
+}
+.date_day{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+.digital_clock{
+    font-size: 40px;
+    font-weight: 700;
+}
+.dropdown_arrow{
+    width: 40px;
+}
+.nav_options{
+    display: flex;
+    align-items: center;
+}

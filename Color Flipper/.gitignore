@@ -1,0 +1,9 @@
+# Windows
+desktop.ini
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
