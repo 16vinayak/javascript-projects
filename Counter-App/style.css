@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{--background-color : #d39b6b}
+.counter{
+    font-size: 40px;
+    font-weight: 600;
+}
+.counter_logo{
+    width: 60px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    width: 400px;
+    background-color: var(--background-color);
+    border-radius: 40px;
+    color: white;
+    font-size: 200px;
+}
+.count_container{
+    display: flex;
+    justify-content: center;
+}
+.feature{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px;
+}
+.decrement, .increment, .reset{
+    width: 90px;
+    background-color: var(--background-color);
+    padding: 7px 12px;
+    border-radius: 15px;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+}
+.reset{
+    width:120px;
+}
